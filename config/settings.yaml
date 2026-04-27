@@ -1,0 +1,17 @@
+# config/settings.yaml
+
+ergast:
+  base_url: "https://api.jolpi.ca/ergast/f1"  # The root URL for all Ergast API calls
+  start_season: 2021                      # First season to pull
+  end_season: 2025                        # Last season to pull
+
+openf1:
+  base_url: "https://api.openf1.org/v1"  # The root URL for OpenF1 API calls
+  year: 2026                              # Current season for live data
+
+fastf1:
+  cache_dir: "data/raw/fastf1_cache"     # Where FastF1 stores downloaded sessions locally
+
+storage:
+  raw_dir: "data/raw"                    # Where all raw API responses are saved
+  processed_dir: "data/processed"        # Where cleaned data goes later

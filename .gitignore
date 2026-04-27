@@ -1,0 +1,32 @@
+# Python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment
+.venv/
+
+# Data files — too large for GitHub, regenerate by running pipeline
+data/raw/
+data/processed/
+
+# Trained model artifacts — regenerate by running train.py
+artifacts/
+
+# FastF1 cache
+data/raw/fastf1_cache/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# Environment variables — never push secrets
+.env
+
+# VS Code settings
+.vscode/
