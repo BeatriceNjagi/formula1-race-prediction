@@ -9,13 +9,6 @@ wheels/
 # Virtual environment
 .venv/
 
-# Data files — too large for GitHub, regenerate by running pipeline
-data/raw/
-data/processed/
-
-# Trained model artifacts — regenerate by running train.py
-artifacts/
-
 # FastF1 cache
 data/raw/fastf1_cache/
 
